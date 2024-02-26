@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylemenor.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura condicional</title>
+</head>
+<body>
+
+    <div class="formulario">
+        <h1>verificação de idade</h1>
+        <p>Por favor, insira sua idade:</p>
+        <input type="number" name="" id="Idadeinput">
+        <button onclick="verificaridade()">Verificar</button>
+    </div>
+
+    <script>
+        function verificaridade(){
+            var idade = (document.getElementById("Idadeinput").value);
+
+            if(idade>=18){
+                window.location.href = 'maior.html';
+            } else {
+                window.location.href = 'menor.html';
+            }
+        }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+h1{
+    text-align: center;
+    text-shadow: 5px 5px 5px;
+    font-size: 60px;
+    text-decoration:black;
+}
+ 
+div{
+    text-align: center;
+}
+
+body{
+    background-image: url(internacional-logo.png);
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
